@@ -26,12 +26,13 @@ It ships with a **User** entity, **signup/login** endpoints, and **JWT security*
 - 🛡️ **Security config** protecting `/api/**` by default (Bearer token)
 - 🧱 **Starter structure** ready for your domain modules
 
---- Note 
+--- 
+
+## Note 
 
 - changing the JWT secret in the application.properties to a random HS256
   is smart step since it may cause some problem if you used the same one later
 
-## 
 
 ---
 
@@ -39,10 +40,10 @@ It ships with a **User** entity, **signup/login** endpoints, and **JWT security*
 
 ```bash
 # 1) Clone
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/amar-ya/spring-boot-api-template-v1
+cd https://github.com/amar-ya/spring-boot-api-template-v1
 
-# 2) Configure application.yml (DB + JWT secret)
+# 2) Configure application.xml (DB + JWT secret)
 
 # 3) Run
 ./mvnw spring-boot:run
